@@ -8,11 +8,10 @@ import '../Assets/css/DarkMood.css'
 
 const Contact = () => {
     const form = useRef()
-    console.log()
 
      const sendEmail = (e) => {
         e.preventDefault();
-      emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID ,process.env.REACT_APP_TEMPLATE_ID , form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
+      emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID ,process.env.REACT_APP_YOUR_TEMPLATE_ID , form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
         .then(()=>{ alert("Your message has been sent successfully");e.target.reset()})
         .catch(()=>alert('Message has not been sent. Try again'))
      }

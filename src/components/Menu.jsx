@@ -16,7 +16,6 @@ import '../Assets/css/DarkMood.css'
 const Menu = () => {
   const value = useSelector(state=>state.toggle.value)
   const dark = useSelector(state=>state.darkMood.value)
-  console.log(value)
   const dispatch = useDispatch()
 
     return (

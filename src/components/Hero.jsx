@@ -51,7 +51,7 @@ const Hero = () => {
                   </div>
                   <div className="responsive-hero-text">
                       <div className="responsive-hero-write-up">
-                            <h1>Hi, I Umoh and I'm  a <br /> <span> Junior Web Developer</span>.</h1>
+                            <h1>Hi, I am Umoh and I'm  a <br /> <span> Junior Web Developer</span>.</h1>
                             <p>I'm a Junior Web developer based Uyo, Nigeria.I have 1 year of <br /> experience and i specilize in creating websites and web apps. I am open for new opportunities and interesting projects. </p>
                           </div>
                           <div className="responsive-hero-link">
