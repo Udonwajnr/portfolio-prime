@@ -1,0 +1,172 @@
+.home{
+    transition:background-color 1s;
+} 
+
+.home.darkmood{
+    background-color:#000;
+    transition:  1s;
+} 
+
+/* darkmood hero */
+.home.darkmood .hero-write-up h1 {
+   color:#fff;
+}
+.home.darkmood .hero-write-up h1 {
+   color:#fff;
+}
+.home.darkmood .hero-write-up p {
+    color: #fff;
+}
+
+.home.darkmood .hero__contact {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.home.darkmood .hero__work {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.home.darkmood .hero-write-up h1 span {
+    color: #000;
+    background-color: #fff;
+}
+.home.darkmood .responsive-hero-write-up h1 {
+    color: #fff;
+}
+.home.darkmood .responsive-hero-write-up h1 span{
+    color: #fff;
+    
+}
+.home.darkmood .responsive-hero-write-up p {
+    color: rgb(215, 214, 214);
+    text-align: center;
+}
+/* darkmood hero */
+/* navbar */
+.home.darkmood .navbar {
+            background-color: #000;
+            color: #fff;
+        }
+    
+          .home.darkmood  .nav-items {
+            color: #fff;
+            text-decoration: none;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+    
+        .home.darkmood .socials a {
+            color: #fff;
+            font-size: 19px;
+        }
+/* navbar ending */
+
+/* resume dark mood */
+ 
+.home.darkmood .resume-header{
+    color: #fff;
+}
+
+.home.darkmood .download-resume a {
+    background: #fff;
+    color: #000;
+}
+
+.home.darkmood .skills__and__tools {
+    color: #fff;
+    
+}
+.home.darkmood .work__experience {
+    color: #fff;
+}
+
+.home.darkmood .education {
+   color: #fff;
+}
+/* resume dark mood ending */
+
+/* contact dark mode */
+.home.darkmood form div label{
+    color: #fff;
+}
+
+
+.home.darkmood .contact-form button {
+    background-color: #fff;
+    color: #000;
+}
+.home.darkmood .contact__header {
+    color: #fff;
+}
+
+.home.darkmood .email_address {
+  color: #fff;
+}
+/* contact dark mode */
+
+
+/* work card dark mood */
+.home.darkmood .work-header {
+    color: #fff ;
+}
+.home.darkmood .work-header p {
+    color: #fff ;
+}
+
+.home.darkmood .card-title {
+    color: #fff;
+}
+
+
+.home.darkmood .card-tags span {
+    background-color:rgb(44, 44, 44);
+    color: #fff;
+}
+
+.home.darkmood .card-tags span:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.home.darkmood .card-text {
+    margin-top: 10px;
+    color: rgb(215, 214, 214);
+}
+
+.home.darkmood .preview {
+    background-color: #fff;
+    color: #000;
+}
+
+.home.darkmood .gitrepo {
+    color: #fff;
+}
+/* work card dark mood ending */
+
+/* menu darkmood */
+.home.darkmood .menu{
+    transition: 1s;
+    background-color: #000;
+}
+.home.darkmood .close-bar {
+   color: #fff;
+}
+
+.home.darkmood .mode {
+    color: #fff;
+}
+/* menu darkmood ending */
+
+.home.darkmood .footer{
+    background-color: #000;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}

@@ -1,0 +1,23 @@
+.skills__and__tools{
+    margin-top: 25px;
+    /* margin-left:  20px;
+    margin-right: 20px; */
+}
+.skills__and__tools__header{
+    text-align: center;
+
+}
+.skills{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.tools, .frameworks{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+}

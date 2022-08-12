@@ -1,0 +1,14 @@
+.work__experience{
+    margin-top:25px ;
+}
+.work__experience__header{
+    text-align: center;
+}
+.experience{
+    text-align: center;
+    margin-top:15px;
+}
+
+.experience span{
+    color: rgb(80, 80, 80);
+}

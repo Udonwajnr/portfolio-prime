@@ -1,0 +1,50 @@
+.menu{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height:100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .nav-items{
+    font-size: 60px;
+}
+
+.menu li{
+    margin-top:40px ;
+}
+
+.menu .socials{
+    position: absolute;
+    bottom: 10px;
+}
+
+.menu .socials a{
+    margin: 0 20px;
+    font-size: 21px;
+}
+
+.close-bar{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    color: #000;
+    right:1.5rem ;
+}
+.mode{
+    position: absolute;
+    top: 20px;
+    color: #000;
+    cursor: pointer;
+    left: 1.5rem;
+}

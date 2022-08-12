@@ -1,0 +1,72 @@
+
+.card{
+    max-width: 300px;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-img{
+    padding: 5px 10px;
+    background-color: rgb(253, 246, 246);
+    display: flex;
+    justify-content: center ;
+    border: 5px;
+}
+.card-img img{
+    border-radius: 5px;   
+}
+.card-title {
+ margin-top: 5px;
+ text-transform: capitalize;
+}
+
+.card-tags{
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.card-tags span{
+        background-color: rgb(245, 241, 241);
+        padding: 4px 15px;
+        border-radius: 15px;
+        transition: .3s;
+        text-transform: capitalize;
+        cursor: pointer;
+}
+.card-tags span:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.card-text{
+    margin-top: 10px;
+    color: rgb(80, 80, 80);
+}
+
+.card-link{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.card-link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* font-size: ; */
+}
+
+.preview{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.gitrepo{
+    color: #000;
+}

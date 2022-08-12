@@ -1,0 +1,67 @@
+.contact{
+    position: relative;
+    margin-top: 30px;
+    margin-left:15px ;
+    margin-right:15px ;
+
+}
+
+.contact__header{
+    text-align: center;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form input{
+    height: 30px;
+    width:100%;
+    margin-top: 7px;
+    border: 1px solid rgb(181, 181, 181);
+    background-color: rgb(248, 248, 248);
+}
+.form input:focus{
+    outline: none;
+}
+.message textarea{
+    border: 1px solid rgb(181, 181, 181);
+    resize: none;
+    margin-top: 7px;
+    background-color: rgb(248, 248, 248);
+}
+.message textarea:focus{
+    outline: none;
+}
+.form{
+    width: 500px;
+}
+
+.email_address{
+    position: absolute;
+    right: 10rem;
+    bottom:6rem
+}
+.contact-form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 6px;
+}
+
+.contact-form button span{
+   font-size: 17px;
+}
