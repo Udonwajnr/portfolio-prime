@@ -30,7 +30,7 @@ const WorkCard = ({image,preview,title,gitRepo,tags,description}) => {
                     }
                     </div>
                 <div className="card-text">
-                    Music website made with react. <br /> This project was generated with strapi cli.
+                   {description}
                 </div>
                 <div className="card-link">
                     <a href={preview} target='_blank' rel="noreferrer" className='preview'>
