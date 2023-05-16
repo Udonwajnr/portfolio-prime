@@ -45,7 +45,7 @@ const Work = ({data, setFiltered,filtered,tags,setTags}) => {
                 {
                 data.map((data)=>{
                    return (
-                    <WorkCard key={data.id} image={data.image} title={data.title} preview={data.preview} gitRepo={data.gitRepo} tags={data.tags}/>
+                    <WorkCard key={data.id} image={data.image} title={data.title} preview={data.preview} gitRepo={data.gitRepo} tags={data.tags} description={data.description}/>
                 )
                 })
                  }
