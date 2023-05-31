@@ -12,21 +12,22 @@ const SkillsAndTools = () => {
                 <div className='skills'>
                     <div className="tools">
                         <span>Html & Css</span>
-                        <span>javascripts</span>
-                        <span>python</span>
-                        <span>git</span>
+                        <span>JavaScripts</span>
+                        <span>TypeScript</span>
+                        <span>Python</span>
+                        <span>Kotlin</span>
+                        <span>Git</span>
                     </div>
-
                     <div className="frameworks">
                         <span>React</span>
+                        <span>Next js</span>
                         <span>Django</span>
                         <span>Redux</span>
                     </div>
                     <div className="database">
-                        <span>Postgrel</span>
+                        <span>PostgresSQL</span>
                     </div>
                 </div>
-            
         </div>
     </>
   )

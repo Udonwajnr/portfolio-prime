@@ -6,7 +6,9 @@ import me2 from '../Assets/img/me2.jpg'
 import { Link} from "react-scroll";
 import { motion } from 'framer-motion'
 import '../Assets/css/DarkMood.css'
-
+import {FaGithub} from 'react-icons/fa'
+import {AiOutlineTwitter} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
 
 
 const Hero = () => {
@@ -25,19 +27,20 @@ const Hero = () => {
           <MediaQuery minWidth={960}>
             {/* <Zoom> */}
               <div className="hero">
-                <div className="hero-img">
+                {/* <div className="hero-img">
                     <img src={me} alt="" />
-                </div>
+                </div> */}
                 <div className="hero-text">
                     <div className="hero-write-up">
-                      <h1>Hi, I am  Umoh and I'm a  <br /> <span> Junior Web Developer</span>.</h1>
-                      <p>I'm a Junior Web developer based Uyo, Nigeria.I have 1 year of <br /> experience and i specilize in creating websites and web apps. I am <br /> open for new opportunities and interesting projects. </p>
+                        <h1>My Umoh and I'm  a <br /> <span> FullStack Web Developer</span>.</h1>
+                            <p>I'm fullstack web developer based Uyo. <br /> I specialize in creating websites and web apps. I am open for new opportunities and interesting projects. </p>
                     </div>
                     <div className="hero-link">
                       <Link to="contact" spy={true} smooth={true} offset={100} duration={800} className="hero__contact">Contact me</Link>
-                      <Link to="work" spy={true} smooth={true} offset={-30} duration={800} className="hero__work">Check my work</Link>
+                      <Link to="work" spy={true} smooth={true} offset={-30} duration={800} className="hero__work">Checkout my works</Link>
                     </div>
                 </div>
+
               </div>
             {/* </Zoom> */}
           </MediaQuery>
@@ -51,14 +54,25 @@ const Hero = () => {
                   </div>
                   <div className="responsive-hero-text">
                       <div className="responsive-hero-write-up">
-                            <h1>Hi, I am Umoh and I'm  a <br /> <span> Junior Web Developer</span>.</h1>
-                            <p>I'm a Junior Web developer based Uyo, Nigeria.I have 1 year of <br /> experience and i specilize in creating websites and web apps. I am open for new opportunities and interesting projects. </p>
+                            <h1>My Umoh and I'm  a <br /> <span> FullStack Web Developer</span>.</h1>
+                            <p>I'm fullstack web developer based Uyo. <br /> I specialize in creating websites and web apps. I am open for new opportunities and interesting projects. </p>                         
                           </div>
                           <div className="responsive-hero-link">
                             <Link to="contact" spy={true} smooth={true} offset={100} duration={800} className="hero__contact">Contact me</Link>
-                            <Link to="work" spy={true} smooth={true} offset={-30} duration={800} className="hero__work">Check my work</Link>
+                            <Link to="work" spy={true} smooth={true} offset={-30} duration={800} className="hero__work">Checkout my works</Link>
                        </div>
                   </div>
+                   <div className="socials">
+                        <a href="https://github.com/Udonwajnr/">
+                            <FaGithub/>
+                        </a>
+                        <a href="https://twitter.com/Udonwa7">
+                            <AiOutlineTwitter/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/umoh-udonwa-jnr-01323923a/">
+                            <AiFillLinkedin/>
+                        </a>
+                    </div>
                 </div>
               {/* </Zoom> */}
             </MediaQuery>
