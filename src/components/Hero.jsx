@@ -32,7 +32,7 @@ const Hero = () => {
                 </div> */}
                 <div className="hero-text">
                     <div className="hero-write-up">
-                        <h1>My Umoh and I'm  a <br /> <span> FullStack Web Developer</span>.</h1>
+                        <h1>My name Umoh and I'm  a <br /> <span> FullStack Web Developer</span>.</h1>
                             <p>I'm fullstack web developer based Uyo. <br /> I specialize in creating websites and web apps. I am open for new opportunities and interesting projects. </p>
                     </div>
                     <div className="hero-link">
@@ -54,15 +54,15 @@ const Hero = () => {
                   </div>
                   <div className="responsive-hero-text">
                       <div className="responsive-hero-write-up">
-                            <h1>My Umoh and I'm  a <br /> <span> FullStack Web Developer</span>.</h1>
+                            <h1>My name Umoh and I'm  a <br /> <span> FullStack Web Developer</span>.</h1>
                             <p>I'm fullstack web developer based Uyo. <br /> I specialize in creating websites and web apps. I am open for new opportunities and interesting projects. </p>                         
                           </div>
-                          <div className="responsive-hero-link">
+                          <div className="responsive-hero-link unique-btn">
                             <Link to="contact" spy={true} smooth={true} offset={100} duration={800} className="hero__contact">Contact me</Link>
                             <Link to="work" spy={true} smooth={true} offset={-30} duration={800} className="hero__work">Checkout my works</Link>
                        </div>
                   </div>
-                   <div className="socials">
+                   <div className="socials unique-icons">
                         <a href="https://github.com/Udonwajnr/">
                             <FaGithub/>
                         </a>
